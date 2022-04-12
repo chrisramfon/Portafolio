@@ -1,0 +1,466 @@
+/* ################################################ imports ###################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* ################################################ general ###################################################### */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.main-index{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+/* ################################################ menu ###################################################### */
+
+.main-menu{
+	/* --------------- Size --------------- */
+	height: 5rem;
+	padding: 1rem 0; 
+
+	/* --------------- Flexbox --------------- */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	/* --------------- Font --------------- */
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size:  .8em;
+}
+
+.option-menu{
+
+	margin: 1.1rem;
+	
+}
+
+.left-menu{
+	display: inline-flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.logo-menu{
+	text-align: center;
+}
+
+.logo-menu-img{
+
+	width: 7rem;
+	height: auto;
+}
+
+
+.icon-footer{
+	padding: 1rem;
+	font-size: 1.5em;
+}
+
+/* ################################################ tittle ###################################################### */
+
+.text-tiitle{
+
+	/* --------------- size --------------- */
+	
+	padding: 1rem;
+	margin-top: 7rem;
+
+	/* --------------- font --------------- */
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 3em;
+
+}
+
+/* ################################################ info ############################################################# */
+.main-info{
+
+	/* --------------- Size --------------- */
+	padding: 7rem 0;
+
+
+	/* --------------- Flexbox --------------- */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+	/* --------------- Font --------------- */
+	font-family: 'Lora', serif;
+	font-size: 1.4em;
+}
+
+.sub-info{
+	color: grey;
+	font-size: 0.8em;
+}
+
+.box-info{
+	
+	/* --------------- Size --------------- */
+	padding: 1rem;
+	width: 10rem;
+
+	/* --------------- Flexbox --------------- */
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	
+}
+
+.photo-info{
+	
+	/* --------------- Size --------------- */
+	width: 35rem;
+	padding: 3rem;
+
+	/* --------------- Border --------------- */
+	border-radius: 480px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+
+.image-info{
+	border-radius: 450px;
+	width: 100%;
+}
+
+.text-info{
+	text-align: right;
+}
+
+/* ################################################ logos ############################################################# */
+
+.main-logos{
+
+	/* --------------- flexbox --------------- */
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: center;
+
+	/* --------------- size --------------- */
+	padding: 5rem;
+}
+
+.png-logos{
+	width: 100%;
+
+}
+
+.logo-logos{
+	width: 9rem;
+}
+
+/* ################################################ abilities ############################################################# */
+
+.main-abilities{
+
+	/* --------------- size --------------- */
+	width: 100%;
+	padding: 7rem 0;
+
+	/* --------------- border --------------- */
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: 1px;
+
+	/* --------------- font --------------- */
+	font-family: 'Lora', serif;
+}
+
+.tittle-abilities{
+	font-size: 3em; 
+	text-align: center;
+}
+
+.list-abilities{
+
+	/* --------------- flexbox --------------- */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	/* --------------- size --------------- */
+	padding-top: 4rem;
+}
+
+.element-abilities{
+	
+	width: 12rem;
+	margin-bottom: 2rem;
+
+}
+
+.logo-abilities{
+	background-color: #f3f3f3;
+	padding: 2rem;
+	border-radius: 100px;
+}
+
+.text-abilities{
+	text-align: center; 
+	font-size: 3em;
+	margin-top: 1.2rem;
+}
+
+.name-abilities{
+	
+	text-align: center;
+	margin-top: 1rem; 
+}
+
+
+/* ################################################ exp ############################################################# */
+
+.sub-exp{
+	font-size: 0.8em;
+	color: grey;
+}
+
+.main-exp{
+	/* --------------- font --------------- */
+	font-family: 'Lora', serif;
+
+	/* --------------- border --------------- */
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+
+	padding: 7rem 0;
+}
+
+.tittle-exp{
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 2rem;
+}
+
+.info-exp{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	font-size: 1.5em;
+}
+
+.box-exp{
+	width: 11rem;
+
+}
+
+.sub-exp{
+	font-size: 0.8em;
+	color: grey;
+}
+
+
+/* ################################################ projects ############################################################# */
+
+.main-projects{
+
+	/* --------------- Size --------------- */
+	padding: 7rem 0;
+
+	/* --------------- border --------------- */
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+
+	/* --------------- font --------------- */
+	font-family: 'Lora', serif;
+}
+
+.tittle-projects{
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 7rem;
+}
+
+.cont-projects{
+
+	/* --------------- flexbox --------------- */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+
+.img-projects{
+
+	width: 100%;
+}
+
+.box-projects{
+	width: 24rem;
+	margin-bottom: 3rem;
+}
+
+.sub-projects{
+
+	/* --------------- font --------------- */
+	font-size: 0.8em;
+	color: grey;
+
+	/* --------------- size --------------- */
+	margin-top: 3em;
+
+	/* --------------- font --------------- */
+	font-weight: bold;
+
+}
+
+.emp-projects{
+	margin-top: 1rem; 
+	margin-bottom: 1rem;
+	font-size: 1.5em;
+}
+
+/* ################################################ footer ############################################################# */
+
+.main-footer{
+	/* --------------- Size --------------- */
+	height: 10rem;
+	padding: 1rem 0; 
+
+	/* --------------- border --------------- */
+	background-color: white;
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: thin;
+
+	/* --------------- flexbox --------------- */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	/* --------------- font --------------- */
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.main-footer a{
+	text-decoration: none;
+	color: black;
+}
+
+.box-footer{
+	width: 33.3%;
+}
+
+.icon-footer{
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+.c1-footer{
+	text-align: left;
+	flex-grow: 1;
+}
+
+.c2-footer{
+	text-align: center;
+	flex-grow: 1;
+}
+
+.c3-footer{
+	text-align: right;
+	width: 100;
+}
+
+/* ################################################ breakpoints ############################################################# */
+
+/* --------------- footer --------------- */
+
+@media screen and (max-width: 480px){
+	.main-footer{
+		flex-flow: column;
+	}
+
+	.c1-footer{
+		text-align: center;
+		flex-grow: 1;
+	}
+
+	.c2-footer{
+		text-align: center;
+		flex-grow: 1;
+	}
+
+	.c3-footer{
+		text-align: center;
+		width: 100;
+		flex-grow: 3;
+	}
+	
+}
+
+@media screen and (max-width: 521px){
+
+	/* --------------- menu --------------- */
+	.main-menu{
+		flex-flow: column;
+	}
+
+	.c1-menu{
+		order: 2;
+	}
+
+	.c2-menu{
+	order: 1;
+	}
+
+	.c3-menu{
+		order: 3;
+	}
+
+	.logo-menu-img{
+		width: 8rem;
+	}
+
+}
+
+@media screen and (max-width: 1225px){
+	
+	/* --------------- info --------------- */
+	
+	.main-info{
+		flex-flow: row wrap-reverse;
+		justify-content: center;
+	}
+
+	.c1-info{
+		order: 1;
+		flex-grow: 2;
+	}
+
+	.c2-info{
+	order: 3;
+	margin-bottom: 2rem;
+	}
+
+	.c3-info{
+		order: 2;
+		flex-grow: 2;
+	}
+
+	.responsive-text-info{
+		flex-flow: row wrap;
+	}
+
+	.box-info{
+		font-size: .7em;
+	}
+
+}
+
